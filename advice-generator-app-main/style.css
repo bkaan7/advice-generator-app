@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(150, 100%, 66%);
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.adviceText {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.area {
+  display: flex;
+  width: 100px;
+}
+
+.btn {
+  border: none;
+  margin: 15px auto -50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: hsl(150, 100%, 66%);
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+.attribution {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+  color: hsl(150, 100%, 66%);
+}
+
+.zar-img {
+  width: 320px;
+}
